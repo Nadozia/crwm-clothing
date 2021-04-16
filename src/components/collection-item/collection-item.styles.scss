@@ -11,6 +11,22 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .addItem{
+    margin:100% 0 0 0;
+    background:rgba(255,255,255,0.7);
+    padding:10px 30px;
+    width: 50%;
+    text-align: center;
+    cursor:pointer;
+  }
+  .addItem:hover{
+    background:rgba(0,0,0,0.3);
+    color:white;
   }
 
   .collection-footer {
